@@ -1,6 +1,6 @@
 import * as z from "zod";
 
- const signUpSchema = z.object({
+export const signUpSchema = z.object({
     email: z.string()
             .min(1, {message: "Email is required"})
             .email({message: "please enter valid email formate"}),
