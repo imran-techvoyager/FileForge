@@ -114,5 +114,5 @@ A sleek, full-stack file storage platform built with Next.js, Clerk, Neon, Drizz
    # or
    yarn start
    # or
-   pnpm start
+   <!-- pnpm start -->
    ```
