@@ -87,25 +87,24 @@
       }
     ],
     "padding-line-between-statements": [
-      "warn",
-      { "blankLine": "always", "prev": "*", "next": "return" },
-      { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*" },
-      {
-        "blankLine": "any",
-        "prev": ["const", "let", "var"],
-        "next": ["const", "let", "var"]
-      },
-      { "blankLine": "always", "prev": "multiline-block-like", "next": "*" },
-      { "blankLine": "always", "prev": "multiline-expression", "next": "*" },
-      { "blankLine": "always", "prev": "directive", "next": "*" },
-      { "blankLine": "always", "prev": "block-like", "next": "*" },
-      { "blankLine": "always", "prev": "*", "next": "function" },
-      { "blankLine": "always", "prev": "*", "next": "function-expression" },
-      { "blankLine": "always", "prev": "*", "next": "block-like" },
-      { "blankLine": "always", "prev": "import", "next": "*" },
-      { "blankLine": "any", "prev": "import", "next": "import" },
-      { "blankLine": "always", "prev": "export", "next": "*" },
-      { "blankLine": "any", "prev": "export", "next": "export" }
-    ]
+  "warn",
+  { "blankLine": "always", "prev": "*", "next": "return" },
+  { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*" },
+  {
+    "blankLine": "any",
+    "prev": ["const", "let", "var"],
+    "next": ["const", "let", "var"]
+  },
+  { "blankLine": "always", "prev": "multiline-block-like", "next": "*" },
+  { "blankLine": "always", "prev": "multiline-expression", "next": "*" },
+  { "blankLine": "always", "prev": "directive", "next": "*" },
+  { "blankLine": "always", "prev": "block-like", "next": "*" },
+  { "blankLine": "always", "prev": "*", "next": "function" },
+  { "blankLine": "always", "prev": "*", "next": "block-like" },
+  { "blankLine": "always", "prev": "import", "next": "*" },
+  { "blankLine": "any", "prev": "import", "next": "import" },
+  { "blankLine": "always", "prev": "export", "next": "*" },
+  { "blankLine": "any", "prev": "export", "next": "export" }
+]
   }
 }
