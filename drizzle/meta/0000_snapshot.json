@@ -1,7 +1,7 @@
 {
-  "id": "295c6344-03f3-4786-9c14-5f364f063d3c",
+  "id": "723f38cd-74fe-4de6-8920-1f56f5511977",
   "prevId": "00000000-0000-0000-0000-000000000000",
-  "version": "7",
+  "version": "6",
   "dialect": "postgresql",
   "tables": {
     "public.files": {
@@ -102,18 +102,11 @@
       "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {},
-      "policies": {},
-      "checkConstraints": {},
-      "isRLSEnabled": false
+      "uniqueConstraints": {}
     }
   },
   "enums": {},
   "schemas": {},
-  "sequences": {},
-  "roles": {},
-  "policies": {},
-  "views": {},
   "_meta": {
     "columns": {},
     "schemas": {},
